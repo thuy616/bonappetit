@@ -1,0 +1,59 @@
+.black {
+  color: black
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.loaded {
+  opacity: 1;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.clear-complete {
+  margin-bottom: 15px;
+}
+
+.panel {
+  padding: 10px 20px;
+  padding-bottom: 80px;
+  font-family: Rubik;
+  text-align: center;
+  background-image: url('../images/0.jpg') ;
+  background-size: contain;
+
+  h1 {
+    color: #36D7B7;
+    font-weight: 400;
+    font-size: 60px;
+  }
+
+  h2 {
+    color: #f6607a;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .list-title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #22A7F0;
+  }
+
+  .list-checkbox {
+    margin-right: 50px;
+  }
+
+  .glyphicon {
+    color: #0b97c4;
+  }
+
+}
+
+
